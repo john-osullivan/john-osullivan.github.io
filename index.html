@@ -1,96 +1,230 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <title>qipo</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <link rel="stylesheet" href="stylesheets/github-light.css">
-  <!--<link rel="stylesheet" href="css/landingPage.css">-->
-  <meta name="viewport" content="width=device-width">
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    window.Maitre = { uuid: "MF4640b8a334" };
-  </script>
-  <!-- Facebook Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	<title>Qipo</title>
+	<title>qipo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="msapplication-config" content="/icons/browserconfig.xml">
+	<meta name="theme-color" content="#666666">
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" >
+	<link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32" >
+	<link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="icons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="icons/manifest.json">
+	<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#666666">
+	<link rel="shortcut icon" href="icons/favicon.ico">
 
-    fbq('init', '546139908902489');
-    fbq('track', "PageView");</script>
-  <noscript><img height="1" width="1" style="display:none"
-                 src="https://www.facebook.com/tr?id=546139908902489&ev=PageView&noscript=1"
-          /></noscript>
-  <!-- End Facebook Pixel Code -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-81908602-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bxslider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/mobile.css" rel="stylesheet" media="(max-width:1170px)">
+	<link href="css/maitre.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
 </head>
 <body>
-<div class="wrapper">
-  <header>
-    <img src="img/branding.png" title="qipo" />
-    <h3 id="mission-text">Stop managing your tools, and start working with people.</h3>
+	
+	<a class="mobile_menu" data-open="nav18" id="mobile_menu"></a>
 
-    <script data-maitre src='https://maitreapp.co/widget.js' async></script>
+	<nav class="nav18" id="nav">
+		<a class="mobile_menu_close black"></a>
+		<div class="container">
+			<!--<img src="i/Qipo Q white on transparent-01.png" class="imagenav">-->
+			<div class="nav5_logo" style="width:10%"><img style="width:100%" src="i/hola.png"></div>
+			<div class="left">
+				<a href="#">Product</a>
+				<a href="#">Team</a>
+				<!--<a href="#">Contact</a>-->
+			</div>
+			<div class="right">
+				<!--<a href="#" class="sec4_5_btn small36">LOG IN</a>-->
+				<a class="sec3_5_btn small36">SIGN UP</a>
+			</div>
 
-  </header>
-  <section>
-    <br />
-    <h2>
-      <a id="welcome-to-qipo" class="anchor" href="#welcome-to-qipo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
-      Why use tools?
-    </h2>
+			<div class="mobile_socials black">
+				<a href="#" target="_blank" class="fb"></a>
+				<a href="#" target="_blank" class="gp"></a>
+				<a href="#" target="_blank" class="tw"></a>
+				<a href="#" target="_blank" class="pi"></a>
+				<a href="#" target="_blank" class="in"></a>
+			</div>
+		</div>
+	</nav>
+	<header class="header18">
+		<div class="container">
+			<div class="header4_video">
+				<div class="relative">
+					<video poster="i/poster.png">	
+						<source  src="video/qipopromo.mp4" type="video/mp4">
+						</video>
+						<a class="sec6_2_video_play"></a>
+					</div>
+					<div class="header18_video_text"><p>Introducing qipo<p></div>
+				</div>
+				<div class="inner">
+					<br>
+					<h1>Qipo <small><i>/Kee-poh/ n</i></small>:</h1>
+					<div class="header18_text"> A shared agenda for getting things done with lots of people, from many teams, using different tools.</div>
 
-    <p>Knowledge workers could <strong>save 6-7 hours/week</strong> using social productivity tools.  Combined with the rapid growth of remote teams
-    and BYOD workplaces, cross-platform digital productivity software is a modern workplace necessity.</p>
+					<script type="text/javascript">
+						window.Maitre = { uuid: "MF4640b8a334" };
+					</script>
+					<script data-maitre src='https://maitreapp.co/widget.js' async></script>
+				</div>
+			</div>
+		</header>
+		<section class="sec2_18">
+			<div class="container">
+				<h2>"Bring Your Own App" Collaboration<h2>
+					<div class="sec1_13_text sec1_18_text">
+						We embrace the fragmented productivity ecosystem. <br>Our proprietary translation layer removes the friction between different team toolsets. </div>
+						<br>
+						<div class="flex">
+							<div class="sec2_18_block">
+								<div class="img" style="background-image:url(i/mensajeverde.png);color:black;"></div>
+								<div class="text"><h3>Messaging</h3></div>
+							</div>
+							<div class="sec2_18_block">
+								<div class="img" style="background-image:url(i/calendarlineblue.png);color:black;"></div>
+								<div class="text"><h3>Scheduling</h3></div>
+							</div>
+							<div class="sec2_18_block">
+								<div class="img" style="background-image:url(i/taskorange2.png);color:black;"></div>
+								<div class="text"><h3>Task <br>Management</h3></div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<hr>
+				</section>
+	<section class="sec1_13">
+		<div class="container">
+				<div class="sec1_13_block">
+					<a href="#"><img src="i/a.png" alt="" /></a>
+					<div class="inner">
+						<a href="#" class="title"><h2>The Problem</h2></a>
+						<br>
+						<div class="text">
+						Email is the lowest common denominator tying all of our tools together, but it’s noisy and jumbles everything together with no structure. We have to remember which apps are storing our information, and manually integrate them by copy-pasting links in emails </div>
+					</div>
+					<div class="clr"></div>
+				</div>
+				<div class="line"></div>
+				<div class="sec1_13_block right">
+					<a href="#"><img src="i/b.png" alt="" /></a>
+					<div class="inner">
+						<a href="#" class="title"><h2>Our Solution</h2></a>
+						<br>
+						<div class="text">
+						Qipo is a shared agenda for getting things done with lots of people, from many groups, using different tools.  We simplify your life by bringing all the work into one place.  If you invite a Qipo user to an event, it doesn’t matter if they use Outlook, Google Calendar, or iCalendar -- the event is on their calendar.  You’re able to use your usual tools while collaborating with people who are on the competing ones, delivering a “Bring Your Own App” collaboration experience.</div>
+					</div>
+					<div class="clr"></div>
+				</div>
+				<div class="line"></div>
+				<div class="sec1_13_block">
+					<a href="#"><img src="i/c.png" alt="" /></a>
+					<div class="inner">
+						<a href="#" class="title"><h2>Our Vision</h2></a>
+						<br>
+						<div class="text">
+						Qipo is connecting all of our productive lives the same way Facebook connects our social lives. We’re driven by a burning vision of a world where communities can organize at scale, tackling problems which once seemed impossible. Join us and help us fuel the future of global collaboration.  Tools erased the borders between nations, and now we’re erasing the borders between tools.
+						</div>
+					</div>
+					<div class="clr"></div>
+				</div>
+			</div>
+		</section>
+		<br>
+		<hr>
+		<section class="sec3_9 sec6_18">
+			<div class="container">
+				<h2>Our Team</h2>
+				<br>
+				<div class="flex">
+					<div class="sec5_6_block">
+						<a><img src="i/JO2.png" alt="" /></a>
+						<a class="title"><p>John O' Sullivan</p></a>
+						<div class="job">Co-Founder | CEO | CTO </div>
+					</div>
+					<div class="sec5_6_block">
+						<a><img src="i/javi2.png" alt="" /></a>
+						<a class="title"><p>Javier Garcia</p></a>
+						<div class="job"><p>Co-Founder | COO | CFO<p></div>
+					</div>
+				</div>
+				<!--<a href="#" class="sec4_5_btn blue">Join Our Team</a>-->
+			</div>
+		</section>
+		
+		<!--<section class="sec7_18">
+			<div class="container">
+				<h2>Pricing</i> Options</h2>
+				<div class="sec1_13_text"> You can have a Free account forever! just <a>contact us</a> about our premium package.</div>
+				<div class="flex">
+					<div class="sec7_18_block">
+						<div class="pretitle">Basic</div>
+						<div class="price"><i>Free</i></div>
+						<div class="text">1 Non-Commercial Site <br />The Rapture Branding</div>
+						<a href="#" class="sec4_5_btn blue">Join Qipo</a>
+					</div>
+					<div class="sec7_18_block dark">
+						<div class="sec6_12_label size36">Best Choice</div>
+						<div class="pretitle">Professional</div>
+						<div class="price"><i>$49</i></div>
+						<div class="text">1 Non-Commercial Site <br />Use Your Own Branding</div>
+						<a href="#" class="sec3_5_btn blue">Join Qipo</a>
+					</div>
+				</div>
+			</div>
+		</section>-->
+		
+		
+		<footer class="footer18">
+			<div class="container">
+				<!--<h2 class="white small">Subscribe </h2>-->
+				<!--<form action="" method="post" class="footer18_form" id="footer18_form">-->
+					<!--<input type="text" name="email" placeholder="Enter your e-mail" onfocus="focusForm('footer18_form',true);" onblur="focusForm('footer18_form',false);"/>-->
+					<!--<button class="sec3_5_btn small36 red">Sign up</button>-->
+				<!--</form>-->
+				<!--<br>-->
+				<!--<div class="flex">
+					<div class="col">
+						<div class="title">Product</div>
+						<a>Features</a>
+						<a>Pricing</a>
+					</div>
+					<div class="col">
+						<div class="title">Info</div>
+						<a>About</a>
+						<a>Contact</a>
+					</div>
+					<div class="col">
+						<div class="title">Support</div>
+						<a>Support Center</a>
+						<a>FAQs</a>
+					</div>
+					<div class="col">
+						<div class="title">Connect</div>
+						<a>Facebook</a>
+						<a>LinkedIn</a>
+					</div>
+				</div>-->
+				<!--<br>-->
+				<!--<br>-->
+				<div class="copy_text">Copyright 2017<br />Qipo. All Rights Reserved</div>	
+			</div>
+		</footer>
 
-    <h2>
-      <a id="disconnected-tools-make-you-inefficient" class="anchor" href="#disconnected-tools-make-you-inefficient" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
-      Why not theirs?
-    </h2>
-
-    <p>Your different single-purpose productivity tools <strong>can't integrate with each other</strong>, wasting your time by forcing you to coordinate them yourself.
-      Flat, siloed tools also hurt organizations by fragmenting institutional knowledge and ignoring the other groups
-    they collaborate with.</p>
-
-    <h2>
-      <a id="your-tools-dont-get-your-groups" class="anchor" href="#your-tools-dont-get-your-groups" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
-      Why use ours?
-    </h2>
-
-    <p>qipo is a <strong>group messenger, calendar, and to-do list</strong>, organized across all your groups and integrated with all your tools.
-    Our proprietary translation layer removes the friction between different team toolsets, while our flexible
-    hierarchical system makes it easy to organize all of your groups online the same way you would in real life.</p>
-
-
-    <!--<iframe width="100%" src="https://www.youtube.com/embed/Fs1tGAQxP9w" frameborder="0" allowfullscreen></iframe>-->
-
-  </section>
-  <footer>
-    <p><small>&copy; 2016 OrgTech.</small></p>
-  </footer>
-</div>
-<script src="javascripts/scale.fix.js"></script>
-<script type="text/javascript">
-  $(document).on('submit','#maitre-form', function(event){
-    fbq('track', 'CompleteRegistration');
-  });
-</script>
-</body>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bxslider.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/sweetalert.min.js"></script>
+		<script src="js/signup.js"></script>
+	</body>
 </html>
