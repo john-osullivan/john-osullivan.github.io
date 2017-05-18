@@ -12,4 +12,8 @@ $(document).ready(function(){
             confirmButtonText : 'Got it!'
         });
     });
+
+    $('#maitre-submit-button').on('click', function(){
+        $('#maitre-content').css('display', 'block');
+    })
 });
