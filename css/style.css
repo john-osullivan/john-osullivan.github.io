@@ -116,7 +116,7 @@ button{
 	cursor:pointer;
 	outline:none;
 	margin:0 auto;
-	background:#eb4e01;
+	/*background:#eb4e01;*/
 	padding:6px 20px;
 }
 
@@ -8424,7 +8424,7 @@ a#maitre-status{
 }
 
 .sec1_13 .text{
-	font-size:16px;
+	font-size:20px;
 	line-height:28px;
 	font-weight:300;
 	color:#8c8f94;
