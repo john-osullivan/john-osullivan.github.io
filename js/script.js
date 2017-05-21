@@ -61,7 +61,7 @@ $(document).click(function (e) {
 
 // Open menu in mobile version
 
-$('.mobile_menu, .mobile_menu_close').click(function(){
+$('.mobile_menu, .mobile_menu_close, .menu_burger').click(function(){
 	var navigation_to_open = $('.mobile_menu').attr('data-open');
 	if($('.'+navigation_to_open).hasClass('opened')){
 		$('.'+navigation_to_open).removeClass('opened');

@@ -235,10 +235,12 @@ h2.left{
 	width:40px;
 	height:40px;
 	background:white;
+	color: black;
 }
 
 .mobile_menu_close.black, .desktop_menu_close.black{
-	background:black;
+	background-color:transparent;
+	color: white;
 }
 
 .mobile_menu.right, .mobile_menu_close.right, .desktop_menu_close.right{
@@ -257,11 +259,13 @@ h2.left{
 	width:24px;
 	height:24px;
 	margin-right:20px;
-	background:url(../i/mobile_menu_socials_white.png) no-repeat 0px 50%;
+	background:white;
+	color:black;
 }
 
 .mobile_socials.black a{
-	background:url(../i/mobile_menu_socials_black.png) no-repeat 0px 50%;
+	opacity: 0;
+	color:white;
 }
 
 .mobile_socials a.fb{
