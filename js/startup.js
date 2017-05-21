@@ -20,7 +20,7 @@ $(document).ready(function(){
         facebook : {
             accounts : ['@qipoco'],
             limit : 3,
-            access_token : 'EAACEdEose0cBANLRpDT4Sra59pbm7DNGNeJQNueeILMbYh8jFBgGgVAR8wcbEOOsHSnEsipP0AV8ndGTJzbkREv02ZBTydQTZATSQl99hbylBd8UWZC1dWUlzWifAPZB3YQoIWaSbdT6RVHt8y6Ur9CO64TLkzurCqDOkHNvziP0edZCXpjbSK7pZCas9qFtEZD'
+            access_token : 'EAABbPx0tBz8BAEeHLXeVnaZBO4mxx5nzZC79ata8K7ShGZAHyZCMkiy8CrhAcRrNZALRKfvoCvFwQbHSZBbnd3jkJckES1nifJvs2e4VZCZAdPd3PdZBzF1HMIIVnchGEHNBITxuZAb8LSQasvaLvalgwPxhvnThH5bYBAtstgyBFlnQZDZD'
         },
         show_media : true
         //twitter : {
