@@ -16,15 +16,11 @@ $(document).ready(function(){
     $('#maitre-submit-button').on('click', function(){
         $('#maitre-content').css('display', 'block');
     });
-
     $('.social-feed-container').socialfeed({
         facebook : {
             accounts : ['@qipoco'],
             limit : 3,
-            access_token : 'EAABbPx0tBz8BABkFla7OjBqhk0QFQwW449hz0l6SKQrc6tNK9Aib5JWJnMeyiBlrnk6hrm5da4LZBIQ81fCZC7bpYqYZB3QloYMT6TX5cdFA7jlASvlPaSTlDqUPA7oAD36yZAP8CVs8JBmRAt1BpQAOD6ZBAx47b2xzuhjmNUc55TpcCiGqXTYObUt5UElwZD'
-        },
-        callback : function(){
-            console.log("The Facebook posts have allegedly all been fetched...");
+            access_token : 'EAACEdEose0cBANLRpDT4Sra59pbm7DNGNeJQNueeILMbYh8jFBgGgVAR8wcbEOOsHSnEsipP0AV8ndGTJzbkREv02ZBTydQTZATSQl99hbylBd8UWZC1dWUlzWifAPZB3YQoIWaSbdT6RVHt8y6Ur9CO64TLkzurCqDOkHNvziP0edZCXpjbSK7pZCas9qFtEZD'
         },
         show_media : true
         //twitter : {
@@ -33,5 +29,5 @@ $(document).ready(function(){
         //    consumer_key : 'UupQInh3kg9mHSVaEb5tR8JUb',
         //    consumer_secret : 'tHH9SqLyIyvVcG4s8sQSy1xOwhLlfDpmD6u4FqouVG3OHzEvrq'
         //}
-    })
+    });
 });
