@@ -23,3 +23,11 @@ img.extra-pad{
     margin-top : 16px;
     margin-bottom: 16px;
 }
+
+img.img-fill{
+    width : 100%;
+}
+
+#maitre-powered-by{
+    display : none;
+}

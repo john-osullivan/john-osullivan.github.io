@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-81908602-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments)};
+		gtag('js', new Date());
+
+		gtag('config', 'UA-81908602-1');
+	</script>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,6 +39,7 @@
 	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.socialfeed.css">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="semantic-icons/icon.min.css">
 </head>
 <body>
 <!--<div id="fb-root"></div>-->
@@ -98,9 +109,9 @@
 	<div class="container">
 		<div class="line"></div>
 		<div class="sec1_13_block">
-			<a href="#"><img src="i/a.png" alt="" /></a>
+			<a href="#"><img class="img-responsive img-fill" src="i/illustrations/Stuck%20on%20email-01.png" alt="" /></a>
 			<div class="inner">
-				<a href="#" class="title"><h2>Make External Collaboration Easy</h2></a>
+				<a href="#" class="title"><h2>External Collaboration is Broken</h2></a>
 				<br>
 				<div class="text">
 					We still rely on email because everyone can use it.
@@ -111,12 +122,12 @@
 		</div>
 		<div class="line"></div>
 		<div class="sec1_13_block right">
-			<a href="#"><img src="i/b.png" alt="" /></a>
+			<a href="#"><img src="i/illustrations/Stuck%20on%20email.png" alt="" /></a>
 			<div class="inner">
-				<a href="#" class="title"><h2>Cross-Platform Productivity Plumbing</h2></a>
+				<a href="#" class="title"><h2>Seamless Cross-Platform Productivity</h2></a>
 				<br>
 				<div class="text">
-					Plug your productivity tools into Qipo and we'll connect them with the companies you work with.
+					We fix that.  Just plug in your tools and Qipo will sync them with the companies you work with.
 					Qipo translates between apps so you don't need to worry about it.
 					Your chats, calendars, tasks, and files are now universally compatible.
 				</div>
@@ -137,7 +148,7 @@
 		<br>
 		<div class="flex">
 			<div class="sec2_18_block">
-				<div class="img" style="background-image:url(i/mensajeverde.png);color:black;"></div>
+				<i class="massive green mail outline icon"></i>
 				<div class="text"><h3>
 					Messages <br />
 					<button type="button" data-toggle="collapse" class='btn btn-link' data-target="#messageCollapse" aria-expanded="false"
@@ -153,7 +164,7 @@
 				</div>
 			</div>
 			<div class="sec2_18_block">
-				<div class="img" style="background-image:url(i/calendarlineblue.png);color:black;"></div>
+				<i class="massive blue calendar icon"></i>
 				<div class="text"><h3>
 					Calendars <br />
 					<button type="button" data-toggle="collapse" class='btn btn-link' data-target="#calendarCollapse" aria-expanded="false"
@@ -169,23 +180,7 @@
 				</div>
 			</div>
 			<div class="sec2_18_block">
-				<div class="img" style="background-image:url(i/taskorange2.png);color:black;"></div>
-				<div class="text"><h3>
-					Projects <br />
-					<button type="button" data-toggle="collapse" class='btn btn-link' data-target="#taskCollapse" aria-expanded="false"
-							aria-controls="taskCollapse">
-						Integrations...
-					</button>
-				</h3></div>
-				<div id="taskCollapse" class="collapse centered-logos">
-					<img class="img-responsive  product-logo" src="i/product-logos/asana.png">
-					<img class="img-responsive  product-logo" src="i/product-logos/trello%20blue%20on%20white.png">
-					<img class="img-responsive  product-logo" src="i/product-logos/basecamp_logo_200.jpg">
-					<img class="img-responsive  product-logo" src="i/product-logos/JIRA%20logo%20and%20name.jpg">
-				</div>
-			</div>
-			<div class="sec2_18_block">
-				<div class="img" style="background-image:url(i/taskorange2.png);color:black;"></div>
+				<i class="massive orange file outline icon"></i>
 				<div class="text"><h3>
 					Files <br />
 					<button type="button" data-toggle="collapse" class='btn btn-link' data-target="#fileCollapse" aria-expanded="false"
