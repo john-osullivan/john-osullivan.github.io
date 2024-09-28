@@ -9,7 +9,7 @@ export function TopNav({ children }: React.PropsWithChildren) {
     <nav>
       <Link href="/" className="flex blogname" id="blogname">
 
-        <span>This Hitchhiker's Guide to the Abyss</span>
+        <span>no, not The Hitchhiker's Guide, just this one's</span>
 
       </Link>
 
