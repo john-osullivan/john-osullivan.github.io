@@ -7,4 +7,5 @@ module.exports =
     pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdoc'],
     output: "export",
     reactStrictMode: true,
+    images: { unoptimized: true }
   });
