@@ -7,11 +7,16 @@ export function TopNav({ children }: React.PropsWithChildren) {
   const { colorMode } = useColorMode();
   return (
     <nav>
-      <Link href="/" className="flex blogname" id="blogname">
+      <div>
+        <div>
+        <Link href="/" className="flex blogname" id="blogname">
+          this hitchhiker's guide
+        </Link>
+        </div>
+        <div id='nav-kicker'>no, not <a href="https://jaydixit.com/files/PDFs/TheultimateHitchhikersGuide.pdf" target="_blank">{' '}The Hitchhiker's Guide</a>, just this one's</div>
+        
+      </div>
 
-        <span>no, not The Hitchhiker's Guide, just this one's</span>
-
-      </Link>
 
       <section>{children}</section>
       <Logo />
@@ -50,6 +55,19 @@ export function TopNav({ children }: React.PropsWithChildren) {
             display: flex;
             gap: 1rem;
             padding: 0;
+          }
+
+          #nav-kicker {
+            margin-top: 0.33em;
+            font-size: 0.618em;
+            font-style: italic;
+            width: 100%;
+            display: flex;
+            align-items: center;
+          }
+
+          #nav-kicker a {
+            margin-left: 0.33em;
           }
         `}
       </style>

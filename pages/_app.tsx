@@ -47,6 +47,8 @@ export type MyAppProps = MarkdocNextJsPageProps
 export function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
   const { markdoc } = pageProps;
 
+  console.log('markdoc: ', JSON.stringify(markdoc, null, 2));
+
   let title = TITLE;
   let description = DESCRIPTION;
   if (markdoc) {
