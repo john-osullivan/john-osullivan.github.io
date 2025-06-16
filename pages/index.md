@@ -10,6 +10,7 @@ description: this_hitchhiker === johno
 - [How to write usefully](http://paulgraham.com/useful.html)
 - [The Grug-brained developer](https://grugbrain.dev/)
 - [Hunter S Thompson's letter to a friend on leading a meaningful life](https://fs.blog/hunter-s-thompson-to-hume-logan/)
+- [Things You Should Never Do pt1](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/), Joel Spolsky
 
 ## Things worth reading
 - [Aphyr's tips on how to pass a technical interview](https://aphyr.com/tags/interviews)
