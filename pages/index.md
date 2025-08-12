@@ -11,6 +11,7 @@ description: this_hitchhiker === johno
 - [The Grug-brained developer](https://grugbrain.dev/)
 - [Hunter S Thompson's letter to a friend on leading a meaningful life](https://fs.blog/hunter-s-thompson-to-hume-logan/)
 - [Things You Should Never Do pt1](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/), Joel Spolsky
+- [LLMs Aren't World Models](https://yosefk.com/blog/llms-arent-world-models.html), Yossi Kreinin
 
 ## Things worth reading
 - [Aphyr's tips on how to pass a technical interview](https://aphyr.com/tags/interviews)
