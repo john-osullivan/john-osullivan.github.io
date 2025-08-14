@@ -1,4 +1,4 @@
-export * from './Callout';
+export * from './ui/Callout';
 export * from './CodeBlock';
 export * from './ColorModeStyles';
 export * from './Heading';

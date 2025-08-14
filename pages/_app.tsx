@@ -9,7 +9,8 @@ import 'prismjs';
 import 'prismjs/components/prism-bash.min';
 import 'prismjs/themes/prism.css';
 
-import '../public/globals.css'
+// import '../public/globals.css'
+import '../public/neobrutalism.css'
 
 import type { AppProps } from 'next/app'
 import type { MarkdocNextJsPageProps } from '@markdoc/next.js'
@@ -19,7 +20,7 @@ const DESCRIPTION = 'A powerful, flexible, Markdown-based authoring framework';
 
 // Markdoc types aren't inferring the name and children properties,
 // just plugging in any.
-function collectHeadings(node:any, sections = [] as any[]) {
+function collectHeadings(node: any, sections = [] as any[]) {
   if (node) {
     if (node.name === 'Heading') {
       const title = node.children[0];
@@ -46,9 +47,6 @@ export type MyAppProps = MarkdocNextJsPageProps
 
 export function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
   const { markdoc } = pageProps;
-
-  console.log('markdoc: ', JSON.stringify(markdoc, null, 2));
-
   let title = TITLE;
   let description = DESCRIPTION;
   if (markdoc) {
@@ -74,12 +72,14 @@ export function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
         <meta name="description" content={description} />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
-       
+
       </Head>
       <TopNav />
       <div className="page">
-        <SideNav />
+        <SideNav links={[]} />
         <main className="flex column">
+          <h1>{title}</h1>
+          <TableOfContents toc={toc} />
           <Component {...pageProps} />
         </main>
         {/* <TableOfContents toc={toc} /> */}
@@ -103,16 +103,16 @@ export function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
         `}
       </style>
       <ColorModeStyles />
-      
+
     </>
   );
 }
 
 export default function MyAppWithProviders(props: AppProps<MyAppProps>) {
-  
+
   return (
-   <ColorModeProvider>
+    <ColorModeProvider>
       <MyApp {...props} />
-   </ColorModeProvider>
+    </ColorModeProvider>
   );
 }
